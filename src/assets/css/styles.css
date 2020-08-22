@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #2d3436;
+}
+
+.main {
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #dfe6e9;
+}
+
+.app {
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col1 {
+    width: 50%;
+    height: 300px;
+
+    background-color: cyan;
+}
+
+.app .app__col2 {
+    width: 50%;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.app .app__col2 .app__col2__sec1 {
+    width: 100%;
+    height: 150px;
+
+    background-color: #fab1a0;
+}
+
+.app .app__col2 .app__col2__sec2 {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.app .app__col2 .app__col2__sec2__node1 {
+    width: 50%;
+    height: 150px;
+
+    background-color: #00cec9;
+}
+
+.app .app__col2 .app__col2__sec2__node2 {
+    width: 50%;
+    height: 150px;
+
+    background-color: dodgerblue;
+}
